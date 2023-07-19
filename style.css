@@ -1,0 +1,17 @@
+.container::before {
+  content: "";
+  background: url("./image/paper-gb9191723c_1280.jpg") no-repeat center
+    center/cover;
+  position: absolute;
+  opacity: 0.3;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  filter: blur(8px);
+}
+
+.container label {
+  font-size: 20px;
+}
